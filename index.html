@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spark Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="jquery.fullpage.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Overlock|Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="fullpage">
+        <section id="section1">
+            <img src="images/3.png" height="250px" id="sec1im" alt="" onmouseover="eff1()" onmouseout="eff2()">
+            <h1 style="font-family: 'Pacifico', cursive;">Lco's Juice Bar</h1>
+            <h2 style="font-family: 'Carter One', cursive;">CERTIFIED ORGANIC</h2>
+            <p style="font-family: 'Overlock', cursive;font-size:1.2em;"> NOT JUST SOME OF THE TIME. NOT WHEN WE CAN. ALL OF THE TIME.</p>
+        </section>
+        <section id="section2">
+            <img src="images/1.png" id= "sec2im" height="200px" alt="">
+            <h1 style="font-family: 'Carter One', cursive;">ABOUT US</h1>
+            <p style="font-family: 'Overlock', cursive;font-size:1.2em;margin-left: 20%;margin-right:20%;">Lco juice bar is on a mission to create the most trusted nutrition and wellness brand on the planet.
+                 Founded in 2010 with the vision of bringing a healthier, more transparent lifestyle platform to the market. Lco juice bar produces an unparalleled selection 
+                 of organic, plant-based products and combines them with a short shelf-life to deliver customers a variety of fresh, nutrient dense products.
+                 We believe we have found a universally loved approach to providing an amazing product lineup and access to knowledge and information about the lifestyle we promote.
+                 For more information, please follow us on Instagram (@lcojuicebar).</p>
+        </section>
+        <section id="section3">
+            <img src="images/4.svg" height = "100px" alt="">
+            <h1 style="font-family: 'Carter One', cursive;">PRODUCTS</h1>
+            <ul style="font-family: 'Overlock', cursive;">
+                <li><h5>1. Aloe vera juice</h5></li>
+                <li><h5>2. Wheat grass juice</h5></li>
+                <li><h5>3. Sugarcane juice</h5></li>
+                <li><h5>4. cran berry juice</h5></li>
+                <li><h5>5. Melon juice</h5></li>
+                <li><h5>6. Papaya juice</h5></li>
+                <li><h5>7. pine Apple juice</h5></li>
+                <li><h5>8. Strawberry juice</h5></li>
+                <li><h5>9. Carrot juice</h5></li>
+                <li><h5>10. Spinach juice</h5></li>
+            </ul>
+        </section>
+        <section id=section4>
+            <img src="images/map.png" height="100px" alt="">
+            <h1 style="font-family: 'Carter One', cursive;">LOCATION</h1>
+            <h5 style="font-family: 'Carter One', cursive;">Use the embeded map to view our Location </h5><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.4954897063376!2d75.84494131492049!3d26.82418837035331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5f56fa5477b%3A0x2ced1dc4fff25af8!2sLearnCodeOnline+Inc.!5e0!3m2!1sen!2sin!4v1549139029821" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section id="section5">
+            <img src="images/email.png" height="80px" alt="">
+            <h1 style="font-family: 'Carter One', cursive;">CONTACT US</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <textarea name="" id="textarea1" cols="30" rows="20" placeholder="Enter your message"></textarea>
+                    <br><br><br> <button class="btn" id="subbtn">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div id="w">
+        <nav style="width:55vw;" class="transparent">
+            <div class="nav-wrapper">
+                <a href="#section1" class="brand-logo center links"> <img src="images/jv.png" alt="" width="170px"> <img src="images/lcoLogo.png" width="70px" alt=""></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger links"><i class="material-icons menu">menu</i></a>
+                <ul id="nav-mobile" class="hide-on-med-and-down">
+                    <li><a href="#section2" class="center links" id="cl">ABOUT US</a></li>
+                    <li><a href="#section3" class="center links" id="cl">PRODUCTS</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#section4" class="center links" id="cl">LOCATION</a></li>
+                    <li><a href="#section5" class="center links" id="cl">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo" style="background:rgba(255,255, 255);">
+            <a href="#section1" class="brand-logo center links"><img src="images/lcologo2.png" width="50px" alt=""></a>
+            <li><a href="#section2" class="links" id="cl1">ABOUT US</a></li>
+            <li><a href="#section3" class="links" id="cl1">PRODUCTS</a></li>
+            <li><a href="#section4" class="links" id="cl1">LOCATION</a></li>
+            <li><a href="#section5" class="links" id="cl1">CONTACT US</a></li>
+        </ul>                    
+    </div>
+    <script>
+        function eff1(){
+            document.getElementById("sec1im").src="images/32.png";
+        }
+        function eff2(){
+            document.getElementById("sec1im").src="images/3.png";
+        }
+    </script>
+    <script type="text/javascript">
+        $('#fullpage').fullpage();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+  </script>
+</body>
+</html>
+</body>
